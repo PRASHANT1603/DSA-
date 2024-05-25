@@ -1,0 +1,27 @@
+// This is a code of prime number by taking user input
+// Prime number is a number that is devisible by 1 and itself.
+
+
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args) {
+        Scanner x = new Scanner(System.in);
+        int n = x.nextInt();
+        int cout=0;
+        for(int i =1; i<=n ;i++){
+            if(n%i==0){
+
+                cout++ ;
+            }}
+            if(cout == 2){
+                System.out.println("prime no");
+            }
+            else{
+                System.out.println("not prime");
+            }
+
+
+
+    }
+}
